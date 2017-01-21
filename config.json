@@ -1,0 +1,24 @@
+{
+	"bridge": {
+		"name": "VeraHomebridge",
+		"username": "CC:22:3D:E3:CE:30",
+		"port": 51826,
+		"pin": "031-45-154"
+	},
+
+	"description": "This is an example configuration file with all supported devices.",
+
+	"platforms": [{
+		"platform": "Vera",
+		"name": "Vera",
+		"veraIP": "10.0.0.x",
+		"includesensor": true,
+		"ignorerooms": [],
+	  	"ignoredevices": [1,2,3],
+		"securitypoll": 2000,
+		"includethermostat": false,
+		"includeRGB": true,
+	  	"dimmertest": false
+	}]
+
+}
