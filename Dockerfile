@@ -75,6 +75,7 @@ RUN \
 RUN npm install -g node-gyp
 RUN npm install -g homebridge
 RUN npm install -g homebridge-vera
+RUN npm install -g homebridge-yamaha
 
 # cleanup
 #RUN \
